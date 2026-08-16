@@ -84,7 +84,7 @@ export default function LoginPage() {
       <div className="login-container">
         {/* Logo / Brand */}
         <div className="text-center mb-4">
-          <img src="/picture/kk (2).png" alt="NeaZaa Bakery" className="login-logo" />
+          <img src={`${import.meta.env.BASE_URL}picture/kk (2).png`} alt="NeaZaa Bakery" className="login-logo" />
           <h2 className="login-brand">NeaZaa Bakery</h2>
           <p className="login-welcome">Welcome back!</p>
         </div>

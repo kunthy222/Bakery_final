@@ -99,17 +99,17 @@ const reviews = [
   {
     text: "Amazing  and super fresh! My favorite bakery.",
     name: "Sophia Lee",
-    image: "/public/picture/photo_2026-06-12_17-09-01.jpg",
+    image: `${import.meta.env.BASE_URL}picture/photo_2026-06-12_17-09-01.jpg`,
   },
   {
     text: "Every item is delicious and beautifully made.",
     name: "Michael Tan",
-    image: "/public/picture/photo_2026-06-12_17-09-10.jpg",
+    image: `${import.meta.env.BASE_URL}picture/photo_2026-06-12_17-09-10.jpg`,
   },
   {
     text: "Best bakery in town! Highly recommended.",
     name: "Emily Carter",
-    image: "/picture/photo_2026-06-12_17-09-13.jpg",
+    image: `${import.meta.env.BASE_URL}picture/photo_2026-06-12_17-09-13.jpg`,
   },
 ];
 
@@ -118,25 +118,25 @@ const features = [
     title: "Daily Fresh",
     text: "We bake fresh every morning for you.",
     image:
-      "/cute-croissant-sticker-illustration-hand-drawn-doodle-of-a-french-pastry-isolated-graphic-for-bakery-or-breakfast-themed-printable-designs-free-vector-removebg-preview.png",
+      `${import.meta.env.BASE_URL}cute-croissant-sticker-illustration-hand-drawn-doodle-of-a-french-pastry-isolated-graphic-for-bakery-or-breakfast-themed-printable-designs-free-vector-removebg-preview.png`,
     width: 60,
   },
   {
     title: "Quality Ingredients",
     text: "We use only premium ingredients.",
-    image: "/images-removebg-preview.png",
+    image: `${import.meta.env.BASE_URL}images-removebg-preview.png`,
     width: 60,
   },
   {
     title: "Made with Love",
     text: "Every recipe is made with care.",
-    image: "/7597681cbffdd1bc4bea4099164c680c__1_-removebg-preview.png",
+    image: `${import.meta.env.BASE_URL}7597681cbffdd1bc4bea4099164c680c__1_-removebg-preview.png`,
     width: 70,
   },
   {
     title: "Happy Customers",
     text: "Thank you for being part of our journey.",
-    image: "/images__2_-removebg-preview.png",
+    image: `${import.meta.env.BASE_URL}images__2_-removebg-preview.png`,
     width: 50,
   },
 ];
@@ -150,10 +150,10 @@ export default function MenuPage() {
 
   // Banner Slideshow
  const bannerImages = [
-    { src: "/public/picture/photo_2026-08-16_00-49-39.jpg", position: "center 25%" },
-    { src: "/public/picture/photo_2026-08-16_02-36-53.jpg", position: "center 25%" },
-    { src: "/public/picture/photo_2026-08-16_02-28-56.jpg", position: "center 25%" },
-    { src: "/public/picture/photo_2026-08-16_02-36-19.jpg", position: "center 25%" },
+    { src: `${import.meta.env.BASE_URL}picture/photo_2026-08-16_00-49-39.jpg`, position: "center 25%" },
+    { src: `${import.meta.env.BASE_URL}picture/photo_2026-08-16_02-36-53.jpg`, position: "center 25%" },
+    { src: `${import.meta.env.BASE_URL}picture/photo_2026-08-16_02-28-56.jpg`, position: "center 25%" },
+    { src: `${import.meta.env.BASE_URL}picture/photo_2026-08-16_02-36-19.jpg`, position: "center 25%" },
   ];
   const [currentSlide, setCurrentSlide] = useState(0);
 

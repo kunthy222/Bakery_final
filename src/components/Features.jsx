@@ -3,26 +3,26 @@ const features = [
     title: "Daily Fresh",
     description: "We bake fresh every morning for you.",
     image:
-      "/cute-croissant-sticker-illustration-hand-drawn-doodle-of-a-french-pastry-isolated-graphic-for-bakery-or-breakfast-themed-printable-designs-free-vector-removebg-preview.png",
+      `${import.meta.env.BASE_URL}cute-croissant-sticker-illustration-hand-drawn-doodle-of-a-french-pastry-isolated-graphic-for-bakery-or-breakfast-themed-printable-designs-free-vector-removebg-preview.png`,
     width: 60,
   },
   {
     title: "Quality Ingredients",
     description: "We use only premium ingredients.",
-    image: "/images-removebg-preview.png",
+    image: `${import.meta.env.BASE_URL}images-removebg-preview.png`,
     width: 60,
   },
   {
     title: "Made with Love",
     description: "Every recipe is made with care.",
     image:
-      "/7597681cbffdd1bc4bea4099164c680c__1_-removebg-preview.png",
+      `${import.meta.env.BASE_URL}7597681cbffdd1bc4bea4099164c680c__1_-removebg-preview.png`,
     width: 70,
   },
   {
     title: "Happy Customers",
     description: "Thank you for being part of our journey.",
-    image: "/images__2_-removebg-preview.png",
+    image: `${import.meta.env.BASE_URL}images__2_-removebg-preview.png`,
     width: 50,
   },
 ];

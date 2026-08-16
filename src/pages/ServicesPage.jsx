@@ -5,37 +5,37 @@ import Footer from "../components/Footer";
 
 const services = [
   {
-    image: "/src/assets/photo_2026-08-16_14-53-33.jpg",
+    image: `${import.meta.env.BASE_URL}assets/photo_2026-08-16_14-53-33.jpg`,
     title: "Custom Cakes",
     description:
       "Create a beautiful and delicious custom cake for birthdays, weddings, anniversaries, and special occasions.",
   },
   {
-    image: "/src/assets/photo_2026-08-16_14-56-06.jpg",
+    image: `${import.meta.env.BASE_URL}assets/photo_2026-08-16_14-56-06.jpg`,
     title: "Fresh Bakery",
     description:
       "Enjoy freshly baked bread, croissants, pastries, cookies, and cakes prepared every morning.",
   },
   {
-    image: "/src/assets/photo_2026-08-16_15-23-22.jpg",
+    image: `${import.meta.env.BASE_URL}assets/photo_2026-08-16_15-23-22.jpg`,
     title: "Event Catering",
     description:
       "Make your special event memorable with our selection of fresh pastries, desserts, and bakery treats.",
   },
   {
-    image: "/src/assets/photo_2026-08-16_15-23-15.jpg",
+    image: `${import.meta.env.BASE_URL}assets/photo_2026-08-16_15-23-15.jpg`,
     title: "Delivery Service",
     description:
       "Order your favorite bakery products and have them delivered fresh and safely to your location.",
   },
   {
-    image: "/src/assets/photo_2026-08-16_15-23-08.jpg",
+    image: `${import.meta.env.BASE_URL}assets/photo_2026-08-16_15-23-08.jpg`,
     title: "Gift Boxes",
     description:
       "Send happiness to your loved ones with our beautifully prepared bakery gift boxes for every occasion.",
   },
   {
-    image: "/src/assets/photo_2026-08-16_15-22-55.jpg",
+    image: `${import.meta.env.BASE_URL}assets/photo_2026-08-16_15-22-55.jpg`,
     title: "Bakery Café",
     description:
       "Relax and enjoy freshly baked treats together with delicious drinks in our cozy bakery café.",
@@ -44,22 +44,22 @@ const services = [
 
 const benefits = [
   {
-    image: "/public/cute-croissant-sticker-illustration-hand-drawn-doodle-of-a-french-pastry-isolated-graphic-for-bakery-or-breakfast-themed-printable-designs-free-vector-removebg-preview.png",
+    image: `${import.meta.env.BASE_URL}cute-croissant-sticker-illustration-hand-drawn-doodle-of-a-french-pastry-isolated-graphic-for-bakery-or-breakfast-themed-printable-designs-free-vector-removebg-preview.png`,
     title: "Fresh Every Day",
     text: "Our products are freshly baked every morning.",
   },
   {
-    image: "/public/7597681cbffdd1bc4bea4099164c680c__1_-removebg-preview.png",
+    image: `${import.meta.env.BASE_URL}7597681cbffdd1bc4bea4099164c680c__1_-removebg-preview.png`,
     title: "Made With Love",
     text: "Every product is prepared with care and passion.",
   },
   {
-    image: "/public/images-removebg-preview.png",
+    image: `${import.meta.env.BASE_URL}images-removebg-preview.png`,
     title: "Quality Ingredients",
     text: "We carefully select high-quality ingredients.",
   },
   {
-    image: "/public/images__2_-removebg-preview.png",
+    image: `${import.meta.env.BASE_URL}images__2_-removebg-preview.png`,
     title: "Happy Customers",
     text: "Your happiness and satisfaction are our priority.",
   },
@@ -74,7 +74,7 @@ export default function ServicesPage() {
       {/*  HERO */}
       <section className="services-hero">
         <img
-          src="/public/picture/photo_2026-08-16_00-49-39.jpg"
+          src={`${import.meta.env.BASE_URL}picture/photo_2026-08-16_00-49-39.jpg`}
           alt="NeaZaa Bakery Services"
         />
 

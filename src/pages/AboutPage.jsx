@@ -7,19 +7,19 @@ const features = [
     title: "QUALITY INGREDIENTS",
     text: "We use only the finest and fresh ingredients.",
     image:
-      "/src/assets/photo_2026-08-16_02-50-47-removebg-preview.png",
+      `${import.meta.env.BASE_URL}assets/photo_2026-08-16_02-50-47-removebg-preview.png`,
   },
   {
     title: "BAKED FRESH DAILY",
     text: "All products are baked fresh every single day.",
     image:
-      "/src/assets/53aa1d9c58ade7548d36e0c4ffbeb03b-removebg-preview.png",
+      `${import.meta.env.BASE_URL}assets/53aa1d9c58ade7548d36e0c4ffbeb03b-removebg-preview.png`,
   },
   {
     title: "MADE WITH LOVE",
     text: "Every recipe is crafted with passion and care.",
     image:
-      "/src/assets/99730-golden-frame-heart-png-download-free_400x400-removebg-preview.png",
+      `${import.meta.env.BASE_URL}assets/99730-golden-frame-heart-png-download-free_400x400-removebg-preview.png`,
   },
 ];
 
@@ -121,7 +121,7 @@ export default function AboutPage() {
           {/* RIGHT IMAGE */}
           <div className="col-lg-7 about-image">
             <img
-              src="/src/assets/photo_2026-08-16_02-45-50.jpg"
+              src={`${import.meta.env.BASE_URL}assets/photo_2026-08-16_02-45-50.jpg`}
               alt="Bread"
             />
           </div>

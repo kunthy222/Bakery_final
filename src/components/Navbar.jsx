@@ -19,7 +19,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="d-flex align-items-center logo">
           <img
-            src="/picture/kk (2).png"
+            src={`${import.meta.env.BASE_URL}picture/kk (2).png`}
             className="navbar-brand d-flex align-items-center ms-1"
             alt="Logo"
             width="120"

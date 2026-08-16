@@ -78,7 +78,7 @@ export default function ContactPage() {
                 <div className="contact-info">
 
                   <img
-                    src="/picture/kk (2).png"
+                    src={`${import.meta.env.BASE_URL}picture/kk (2).png`}
                     alt="Bakery Logo"
                     className="logo"
                   />
@@ -87,7 +87,7 @@ export default function ContactPage() {
 
                   <p className="contact-page-item">
                     <img
-                      src="/picture/Shape09.png"
+                      src={`${import.meta.env.BASE_URL}picture/Shape09.png`}
                       alt=""
                     />
                     info@neazaa.com
@@ -95,7 +95,7 @@ export default function ContactPage() {
 
                   <p className="contact-page-item">
                     <img
-                      src="/picture/Shape06.png"
+                      src={`${import.meta.env.BASE_URL}picture/Shape06.png`}
                       alt=""
                     />
                     +855 963 339 318
@@ -103,7 +103,7 @@ export default function ContactPage() {
 
                   <p className="contact-page-item">
                     <img
-                      src="/picture/Shape03.png"
+                      src={`${import.meta.env.BASE_URL}picture/Shape03.png`}
                       alt=""
                     />
                     Phnom Penh, Cambodia

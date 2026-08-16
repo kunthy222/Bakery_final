@@ -50,11 +50,11 @@ export default function DashboardHome() {
   }, []);
 
   const cards = [
-    { label: "Total Users", value: counts.users, iconImg: "/public/images__2_-removebg-preview.png", to: "/admin/users" },
-    { label: "Products", value: counts.products, iconImg: "/public/cute-croissant-sticker-illustration-hand-drawn-doodle-of-a-french-pastry-isolated-graphic-for-bakery-or-breakfast-themed-printable-designs-free-vector-removebg-preview.png", to: "/admin/products" },
-    { label: "Orders", value: counts.orders, sub: `${counts.pendingOrders} pending`, iconImg: "/src/assets/7f249252404646c08d90976505cb6937.jpg", to: "/admin/orders" },
-    { label: "Messages", value: counts.messages, sub: `${counts.unreadMessages} unread`, iconImg: "/src/assets/photo_2026-08-16_16-06-05.jpg", to: "/admin/messages" },
-    { label: "Revenue (Delivered)", value: `${counts.revenue.toFixed(2)}$`, iconImg: "/src/assets/photo_2026-08-16_16-08-02.jpg", to: "/admin/orders" },
+    { label: "Total Users", value: counts.users, iconImg: `${import.meta.env.BASE_URL}images__2_-removebg-preview.png`, to: "/admin/users" },
+    { label: "Products", value: counts.products, iconImg: `${import.meta.env.BASE_URL}cute-croissant-sticker-illustration-hand-drawn-doodle-of-a-french-pastry-isolated-graphic-for-bakery-or-breakfast-themed-printable-designs-free-vector-removebg-preview.png`, to: "/admin/products" },
+    { label: "Orders", value: counts.orders, sub: `${counts.pendingOrders} pending`, iconImg: `${import.meta.env.BASE_URL}assets/7f249252404646c08d90976505cb6937.jpg`, to: "/admin/orders" },
+    { label: "Messages", value: counts.messages, sub: `${counts.unreadMessages} unread`, iconImg: `${import.meta.env.BASE_URL}assets/photo_2026-08-16_16-06-05.jpg`, to: "/admin/messages" },
+    { label: "Revenue (Delivered)", value: `${counts.revenue.toFixed(2)}$`, iconImg: `${import.meta.env.BASE_URL}assets/photo_2026-08-16_16-08-02.jpg`, to: "/admin/orders" },
   ];
 
   return (
